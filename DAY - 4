@@ -72,3 +72,20 @@ What type of statements are generally controlled by object privileges?
 Correct Answer: DML
 
 Explanation: Data Manipulation Language (DML) statements like SELECT, INSERT, UPDATE, and DELETE are the types of operations that are typically controlled by object privileges. These privileges are specific to a particular database object, such as a table or a view.
+
+
+Question 8
+
+What does the CIA triad in DBMS security stand for?
+    Confidentiality, Integrity, Accessibility
+    Confidentiality, Integrity, Availability
+    Control, Integrity, Authorization
+    Confidentiality, Information, Authorization
+
+Correct Answer: Confidentiality, Integrity, Availability
+
+Explanation: The CIA triad is a widely used security model that forms the foundation of information security. It represents three core principles:
+    Confidentiality: Preventing unauthorized disclosure of information.
+    Integrity: Ensuring data is accurate and has not been altered by unauthorized means.
+    Availability: Ensuring information and resources are accessible to authorized users when needed.
+
