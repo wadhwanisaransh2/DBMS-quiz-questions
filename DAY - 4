@@ -39,3 +39,82 @@ Which of the following is a system privilege in DBMS?
 Correct Answer: CREATE TABLE
 
 Explanation: System privileges grant a user the right to perform a specific action within the database system itself, like creating a table (CREATE TABLE), a user, or a role. Object privileges, on the other hand, grant permissions on a specific database object, such as a table (e.g., SELECT, INSERT, UPDATE, DELETE).
+
+    Query successful
+
+This set of multiple-choice questions covers various topics in database management and SQL. Here are the questions and their correct answers.
+
+Question 1
+
+What is the main purpose of the MERGE command in SQL?
+
+    Select all records
+
+    Drop the table
+
+    Perform insert or update in one step
+
+    Grant permissions
+
+Correct Answer: Perform insert or update in one step
+
+Explanation: The MERGE statement is a powerful SQL command that allows you to perform conditional INSERT or UPDATE operations on a target table based on the existence of matching rows in a source table. This is often more efficient than writing separate INSERT and UPDATE statements.
+
+Question 2
+
+Which of the following commands modifies an existing structure of a table?
+
+    CREATE
+
+    ALTER
+
+    DROP
+
+    MERGE
+
+Correct Answer: ALTER
+
+Explanation: The ALTER command is used to modify the structure of an existing table. This includes adding, modifying, or dropping columns; and adding or dropping constraints.
+
+Question 3
+
+What does the ROLLBACK command do in SQL?
+
+    Saves all the changes
+
+    Deletes the entire table
+
+    Undoes changes made since last commit
+
+    Grants permissions
+
+Correct Answer: Undoes changes made since last commit
+
+Explanation: The ROLLBACK command is a Transaction Control Language (TCL) command. It is used to undo all the changes in the current transaction, which is everything that has happened since the last COMMIT or ROLLBACK command.
+
+Question 4
+
+Which of the following is a system privilege in DBMS?
+
+    SELECT on a table
+
+    INSERT on a table
+
+    DELETE a specific row from a table
+
+    CREATE TABLE
+
+Correct Answer: CREATE TABLE
+
+Explanation: System privileges grant a user the right to perform a specific action within the database system itself, like creating a table (CREATE TABLE), a user, or a role. Object privileges, on the other hand, grant permissions on a specific database object, such as a table (e.g., SELECT, INSERT, UPDATE, DELETE).
+
+
+Question 5
+What is the purpose of authorization in DBMS?
+    Encrypting the database
+    Backing up data
+    Granting permission to access specific database objects
+    Recovering lost transactions
+Correct Answer: Granting permission to access specific database objects
+
+Explanation: Authorization in a Database Management System (DBMS) is the process of granting or denying a user permission to perform specific actions on specific data or objects, like a table or a view. It defines what a user is allowed to do.
