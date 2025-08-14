@@ -100,3 +100,16 @@ Which of the following is NOT a benefit of using roles in DBMS?
 Correct Answer: Individual transaction tracking
 
 Explanation: Using roles simplifies privilege administration by allowing you to grant a set of privileges to a role and then assign that role to multiple users. This facilitates dynamic and application-specific security. Individual transaction tracking is a function of database logging and auditing, not a primary benefit of using roles.
+
+
+Question 10
+
+If your application deals with metrics, logs, or time-stamped sensor data, which type of database is most appropriate?
+
+    Document Database
+    Columnar Database
+    Relational Database
+    Time Series Database
+Correct Answer: Time Series Database
+
+Explanation: Time Series Databases are specifically optimized for handling large volumes of time-stamped data, such as metrics, logs, and sensor data. They are designed for fast ingestion and queries on data points ordered by time, making them ideal for these types of applications.
