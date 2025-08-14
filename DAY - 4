@@ -18,3 +18,13 @@ Which of the following commands modifies an existing structure of a table?
 Correct Answer: ALTER
 
 Explanation: The ALTER command is used to modify the structure of an existing table. This includes adding, modifying, or dropping columns; and adding or dropping constraints.
+
+Question 3
+What does the ROLLBACK command do in SQL?
+    Saves all the changes
+    Deletes the entire table
+    Undoes changes made since last commit
+    Grants permissions
+Correct Answer: Undoes changes made since last commit
+
+Explanation: The ROLLBACK command is a Transaction Control Language (TCL) command. It is used to undo all the changes in the current transaction, which is everything that has happened since the last COMMIT or ROLLBACK command.
