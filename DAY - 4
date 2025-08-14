@@ -89,3 +89,14 @@ Explanation: The CIA triad is a widely used security model that forms the founda
     Integrity: Ensuring data is accurate and has not been altered by unauthorized means.
     Availability: Ensuring information and resources are accessible to authorized users when needed.
 
+
+Question 9
+
+Which of the following is NOT a benefit of using roles in DBMS?
+    Reduced privilege administration
+    Individual transaction tracking
+    Dynamic privilege management
+    Application-specific security
+Correct Answer: Individual transaction tracking
+
+Explanation: Using roles simplifies privilege administration by allowing you to grant a set of privileges to a role and then assign that role to multiple users. This facilitates dynamic and application-specific security. Individual transaction tracking is a function of database logging and auditing, not a primary benefit of using roles.
