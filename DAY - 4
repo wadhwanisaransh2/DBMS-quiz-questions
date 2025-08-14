@@ -113,3 +113,16 @@ If your application deals with metrics, logs, or time-stamped sensor data, which
 Correct Answer: Time Series Database
 
 Explanation: Time Series Databases are specifically optimized for handling large volumes of time-stamped data, such as metrics, logs, and sensor data. They are designed for fast ingestion and queries on data points ordered by time, making them ideal for these types of applications.
+
+
+Question 11
+
+The DCL command used to provide access rights to users is:
+    GRANT
+    REVOKE
+    COMMIT
+    ALTER
+The correct answer is GRANT.
+
+Explanation:
+The GRANT command is a part of Data Control Language (DCL) and is used to give permissions to users to perform specific tasks on database objects, such as tables or views.
