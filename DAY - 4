@@ -61,3 +61,14 @@ What is the correct SQL syntax to grant the role intern_role to a user named Pra
 Correct Answer: GRANT intern_role TO prashant;
 
 Explanation: The correct syntax for granting a role to a user in SQL is GRANT <role_name> TO <user_name>;
+
+
+Question 7
+What type of statements are generally controlled by object privileges?
+    DML
+    DDL
+    TCL
+    Security Policies
+Correct Answer: DML
+
+Explanation: Data Manipulation Language (DML) statements like SELECT, INSERT, UPDATE, and DELETE are the types of operations that are typically controlled by object privileges. These privileges are specific to a particular database object, such as a table or a view.
