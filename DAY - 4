@@ -1,0 +1,10 @@
+
+Question 1
+What is the main purpose of the MERGE command in SQL?
+    Select all records
+    Drop the table
+    Perform insert or update in one step
+    Grant permissions
+Correct Answer: Perform insert or update in one step
+
+Explanation: The MERGE statement is a powerful SQL command that allows you to perform conditional INSERT or UPDATE operations on a target table based on the existence of matching rows in a source table. This is often more efficient than writing separate INSERT and UPDATE statements.
