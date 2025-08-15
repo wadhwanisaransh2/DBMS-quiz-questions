@@ -46,3 +46,13 @@ Explanation: Unlike traditional file systems, a Database Management System (DBMS
 Correct Answer: Increased data redundancy
 
 Explanation: One of the primary goals of a DBMS is to reduce data redundancy by storing data in a single, centralized location and enforcing integrity rules. The database approach aims to decrease, not increase, data duplication.
+
+
+6. What is data independence?
+    Data not accessible to anyone
+    Data can be used without backup
+    Changes in data do not affect application programs
+    Data is dependent on one user
+Correct Answer: Changes in data do not affect application programs
+
+Explanation: Data independence is a major advantage of a DBMS. It means that the data structure can be changed without requiring changes to the application programs that use the data. This provides flexibility and makes maintenance easier.
