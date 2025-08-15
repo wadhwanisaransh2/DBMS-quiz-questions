@@ -1,0 +1,8 @@
+1. What is the purpose of the MERGE command in SQL?
+    Select all records
+    Drop the table
+    Perform insert or update in one step
+    Grant permissions
+Correct Answer: Perform insert or update in one step
+
+Explanation: The MERGE command is used to combine INSERT and UPDATE operations into a single statement. It's often used when synchronizing data between a source table and a target table.
