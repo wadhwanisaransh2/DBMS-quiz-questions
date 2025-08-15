@@ -36,3 +36,13 @@ Explanation: The GRANT command is a Data Control Language (DCL) command used to 
 Correct Answer: Database specific format
 
 Explanation: Unlike traditional file systems, a Database Management System (DBMS) stores data centrally in its own specific format to ensure efficiency, data integrity, and consistency. This format is managed and controlled by the DBMS software.
+
+
+5. Which of the following is NOT a characteristic of the database approach?
+    Self-describing nature of a database
+    Insulation between programs and data
+    Multiple views of data
+    Increased data redundancy
+Correct Answer: Increased data redundancy
+
+Explanation: One of the primary goals of a DBMS is to reduce data redundancy by storing data in a single, centralized location and enforcing integrity rules. The database approach aims to decrease, not increase, data duplication.
