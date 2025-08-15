@@ -56,3 +56,13 @@ Explanation: One of the primary goals of a DBMS is to reduce data redundancy by 
 Correct Answer: Changes in data do not affect application programs
 
 Explanation: Data independence is a major advantage of a DBMS. It means that the data structure can be changed without requiring changes to the application programs that use the data. This provides flexibility and makes maintenance easier.
+
+
+7. Which of the following is an advantage of using a DBMS?
+    Increased redundancy
+    Better data integration
+    More complex programming
+    Less security
+Correct Answer: Better data integration
+
+Explanation: A key benefit of a DBMS is that it provides a central repository for data, allowing for the integration of data from various sources. This helps to manage and analyze information consistently across an organization.
