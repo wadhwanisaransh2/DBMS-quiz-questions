@@ -78,3 +78,11 @@ Correct Answer: High initial cost
 Explanation: While a DBMS offers many benefits, it often involves a significant upfront investment in software, hardware, and training. This can be a major drawback for smaller organizations or projects with limited budgets.
 
 
+9. In a DBMS, multiple users can access data at the same time. This requires a DBMS to support?
+    Single-user mode
+    Concurrency control
+    Multi-mode access
+    Parallel retrieval
+Correct Answer: Concurrency control
+
+Explanation: Concurrency control is a fundamental feature of a DBMS. It ensures that when multiple users or applications access and modify the same data simultaneously, their operations do not interfere with each other, maintaining data integrity and consistency.
