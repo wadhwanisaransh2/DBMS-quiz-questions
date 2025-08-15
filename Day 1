@@ -66,3 +66,15 @@ Explanation: Data independence is a major advantage of a DBMS. It means that the
 Correct Answer: Better data integration
 
 Explanation: A key benefit of a DBMS is that it provides a central repository for data, allowing for the integration of data from various sources. This helps to manage and analyze information consistently across an organization.
+
+
+8. Which one of the following is a disadvantage of a DBMS?
+    Improved data consistency
+    Data sharing
+    High initial cost
+    Reduced redundancy
+Correct Answer: High initial cost
+
+Explanation: While a DBMS offers many benefits, it often involves a significant upfront investment in software, hardware, and training. This can be a major drawback for smaller organizations or projects with limited budgets.
+
+
