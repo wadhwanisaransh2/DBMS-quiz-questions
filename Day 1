@@ -86,3 +86,13 @@ Explanation: While a DBMS offers many benefits, it often involves a significant 
 Correct Answer: Concurrency control
 
 Explanation: Concurrency control is a fundamental feature of a DBMS. It ensures that when multiple users or applications access and modify the same data simultaneously, their operations do not interfere with each other, maintaining data integrity and consistency.
+
+
+10. Which of the following is a component of a DBMS?
+    Compiler
+    Query Processor
+    Spreadsheet
+    Web Browser
+Correct Answer: Query Processor
+
+Explanation: A Query Processor is a core component of a DBMS. It's responsible for interpreting and executing database queries, often written in SQL, enabling users to interact with the database and retrieve information efficiently.
