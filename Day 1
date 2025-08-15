@@ -26,3 +26,13 @@ Explanation: NoSQL databases are specifically designed for flexible data models,
 Correct Answer: GRANT
 
 Explanation: The GRANT command is a Data Control Language (DCL) command used to provide specific privileges (e.g., SELECT, INSERT) to a user or role. COMMIT is a Transaction Control Language (TCL) command, while SELECT and UPDATE are Data Manipulation Language (DML) commands.
+
+
+4. In the database approach, data is stored in a
+    Text File
+    Spreadsheet
+    Database specific format
+    Word processor
+Correct Answer: Database specific format
+
+Explanation: Unlike traditional file systems, a Database Management System (DBMS) stores data centrally in its own specific format to ensure efficiency, data integrity, and consistency. This format is managed and controlled by the DBMS software.
