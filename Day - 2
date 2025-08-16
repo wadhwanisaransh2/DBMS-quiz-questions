@@ -60,3 +60,14 @@ Explanation: The Application Tier (also known as the middle tier) in a 3-tier ar
 Correct Answer: Actual data stored in the database at a given time
 
 Explanation: A database instance refers to the actual content or data stored in the database at a specific moment. This is a dynamic state that changes as data is added, modified, or deleted.
+
+
+7. In DBMS architecture, what is the main role of the presentation tier?
+
+    Execute queries
+    Store data
+    Display user interface
+    Manage database transactions
+Correct Answer: Display user interface
+
+Explanation: The presentation tier is the top-most layer in a multi-tier architecture. Its primary role is to display the user interface and handle user interaction.
