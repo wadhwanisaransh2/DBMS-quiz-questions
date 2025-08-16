@@ -39,3 +39,67 @@ Explanation: In a 1-tier architecture, the user, application, and database are a
 Correct Answer: 2-tier
 
 Explanation: A 2-tier architecture separates the application (client) and the database (server). The client application sends requests directly to the database server, and the database server responds with the requested data.
+
+
+    Query successful
+
+1. What is a schema in a database?
+
+    A type of data encryption
+
+    A graphical report
+
+    A structure that defines how data is organized in a database
+
+    A backup file of the database
+
+Correct Answer: A structure that defines how data is organized in a database
+
+Explanation: A database schema defines the logical structure of a database, including the tables, fields, relationships, indexes, and views. It's the blueprint that organizes the data.
+
+2. Which of the following related to snowflake schema is true?
+
+    Each dimension is represented by a single dimensional table
+
+    Maintenance efforts are less
+
+    Dimension tables are normalised
+
+    It is not an extension of star schema
+
+Correct Answer: Dimension tables are normalised
+
+Explanation: In a snowflake schema, dimension tables are normalized into multiple related tables, unlike a star schema where they are denormalized into a single table. This normalization reduces data redundancy but increases the complexity of queries and maintenance.
+
+3. In which DBMS architecture does the user directly interact with the database?
+
+    1-tier
+
+    2-tier
+
+    3-tier
+
+    4-tier
+
+Correct Answer: 1-tier
+
+Explanation: In a 1-tier architecture, the user, application, and database are all on the same machine. The user interacts directly with the database, which is often used for local development or simple applications.
+
+4. Which architecture separates the application and database with a client-server model?
+
+    1-tier
+    2-tier
+    3-tier
+    Multi-tier
+Correct Answer: 2-tier
+
+Explanation: A 2-tier architecture separates the application (client) and the database (server). The client application sends requests directly to the database server, and the database server responds with the requested data.
+
+5. In 3-tier architecture, which tier is responsible for business logic?
+    Presentation Tier
+    Data Tier
+    Application Tier
+    Network Tier
+Correct Answer: Application Tier
+
+Explanation: The Application Tier (also known as the middle tier) in a 3-tier architecture is responsible for handling the business logic. It processes the user's request, communicates with the data tier, and sends the processed data back to the presentation tier.
