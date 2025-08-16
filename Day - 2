@@ -82,3 +82,14 @@ Explanation: The presentation tier is the top-most layer in a multi-tier archite
 Correct Answer: Data Layer
 
 Explanation: The Data Layer is the lowest tier in a 3-tier architecture. It directly interacts with the database, handling data storage, retrieval, insertion, and updating.
+
+
+9. What kind of schema shows how data is viewed by end-users (e.g., reports)?
+
+    Logical schema
+    View schema
+    Physical schema
+    External schema
+Correct Answer: External schema
+
+Explanation: An external schema (also known as a user view) describes a specific subset of the database that a particular user or application can see. It is the highest level of abstraction and is tailored to the needs of the end-user.
