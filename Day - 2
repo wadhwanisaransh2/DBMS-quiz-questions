@@ -93,3 +93,18 @@ Explanation: The Data Layer is the lowest tier in a 3-tier architecture. It dire
 Correct Answer: External schema
 
 Explanation: An external schema (also known as a user view) describes a specific subset of the database that a particular user or application can see. It is the highest level of abstraction and is tailored to the needs of the end-user.
+
+
+10. Which of the following best represents the hierarchy of DBMS schema levels (from highest to lowest abstraction)?
+
+    Internal → Conceptual → External
+    External → Conceptual → Internal
+    Conceptual → External → Internal
+    External → Internal → Conceptual
+
+Correct Answer: External → Conceptual → Internal
+
+Explanation: The correct schema hierarchy, from the highest level of abstraction to the lowest, is:
+    External Schema (User Views): How individual users see the data.
+    Conceptual Schema (Logical Design): A global view of the entire database, independent of storage.
+    Internal Schema (Physical Storage): The physical storage structure of the database.
