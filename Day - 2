@@ -7,3 +7,14 @@
 Correct Answer: A structure that defines how data is organized in a database
 
 Explanation: A database schema defines the logical structure of a database, including the tables, fields, relationships, indexes, and views. It's the blueprint that organizes the data.
+
+
+2. Which of the following related to snowflake schema is true?
+    Each dimension is represented by a single dimensional table
+    Maintenance efforts are less
+    Dimension tables are normalised
+    It is not an extension of star schema
+
+Correct Answer: Dimension tables are normalised
+
+Explanation: In a snowflake schema, dimension tables are normalized into multiple related tables, unlike a star schema where they are denormalized into a single table. This normalization reduces data redundancy but increases the complexity of queries and maintenance.
