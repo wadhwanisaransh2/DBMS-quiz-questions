@@ -28,3 +28,14 @@ Explanation: In a snowflake schema, dimension tables are normalized into multipl
 Correct Answer: 1-tier
 
 Explanation: In a 1-tier architecture, the user, application, and database are all on the same machine. The user interacts directly with the database, which is often used for local development or simple applications.
+
+
+4. Which architecture separates the application and database with a client-server model?
+
+    1-tier
+    2-tier
+    3-tier
+    Multi-tier
+Correct Answer: 2-tier
+
+Explanation: A 2-tier architecture separates the application (client) and the database (server). The client application sends requests directly to the database server, and the database server responds with the requested data.
