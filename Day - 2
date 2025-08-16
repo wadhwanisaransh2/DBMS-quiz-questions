@@ -71,3 +71,14 @@ Explanation: A database instance refers to the actual content or data stored in 
 Correct Answer: Display user interface
 
 Explanation: The presentation tier is the top-most layer in a multi-tier architecture. Its primary role is to display the user interface and handle user interaction.
+
+
+8. Which layer in 3-tier architecture communicates with the database directly?
+
+    Presentation Layer
+    Application Layer
+    Data Layer
+    Security Layer
+Correct Answer: Data Layer
+
+Explanation: The Data Layer is the lowest tier in a 3-tier architecture. It directly interacts with the database, handling data storage, retrieval, insertion, and updating.
