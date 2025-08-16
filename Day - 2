@@ -103,3 +103,14 @@ Explanation: A 2-tier architecture separates the application (client) and the da
 Correct Answer: Application Tier
 
 Explanation: The Application Tier (also known as the middle tier) in a 3-tier architecture is responsible for handling the business logic. It processes the user's request, communicates with the data tier, and sends the processed data back to the presentation tier.
+
+
+6. What is an instance of a database?
+    Physical location of DBMS
+    Logical structure of data
+    Actual data stored in the database at a given time
+    A stored procedure
+
+Correct Answer: Actual data stored in the database at a given time
+
+Explanation: A database instance refers to the actual content or data stored in the database at a specific moment. This is a dynamic state that changes as data is added, modified, or deleted.
