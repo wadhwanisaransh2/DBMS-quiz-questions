@@ -1,0 +1,9 @@
+1. What is a schema in a database?
+    A type of data encryption
+    A graphical report
+    A structure that defines how data is organized in a database
+    A backup file of the database
+
+Correct Answer: A structure that defines how data is organized in a database
+
+Explanation: A database schema defines the logical structure of a database, including the tables, fields, relationships, indexes, and views. It's the blueprint that organizes the data.
