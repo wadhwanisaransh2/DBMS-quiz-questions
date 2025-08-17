@@ -8,3 +8,14 @@
 Correct Answer: Key-Value Store
 
 Explanation: Key-Value stores, such as Redis and DynamoDB, offer extremely fast lookups because they store data as a collection of key-value pairs. This simple structure makes them ideal for caching, session management, and other use cases requiring quick data retrieval.
+
+2. What does horizontal scalability mean in the context of database systems?
+
+    Adding more CPUs to the same server
+    Rewriting database queries for optimization
+    Distributing data across multiple servers
+    Using multiple databases with one schema
+
+Correct Answer: Distributing data across multiple servers
+
+Explanation: Horizontal scalability involves scaling out by adding more machines to a system. This approach distributes the workload across multiple servers, a common practice in NoSQL systems to handle large amounts of data and traffic. In contrast, vertical scalability involves adding more power (like CPUs or RAM) to a single machine.
