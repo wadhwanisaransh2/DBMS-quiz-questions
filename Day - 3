@@ -78,3 +78,15 @@ Explanation: Fully managed database services (like Amazon RDS or Azure SQL) hand
 Correct Answer: Ability to change physical schema without affecting logical schema
 
 Explanation: Physical data independence means that changes to the physical storage structure of a database (e.g., adding a new index, changing the storage medium) do not require changes to the logical structure or the application programs that access the data
+
+
+8. Which of the following changes represents Physical Data Independence?
+
+    Adding a new attribute to a table
+    Changing the datatype of a column
+    Creating a new index on a table
+    Removing a column from a table
+
+Correct Answer: Creating a new index on a table
+
+Explanation: Adding a new index affects the physical storage and access path of the data but does not change the logical structure of the table (its columns and data types). Therefore, it demonstrates physical data independence.
