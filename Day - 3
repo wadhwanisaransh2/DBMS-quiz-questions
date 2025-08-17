@@ -90,3 +90,15 @@ Explanation: Physical data independence means that changes to the physical stora
 Correct Answer: Creating a new index on a table
 
 Explanation: Adding a new index affects the physical storage and access path of the data but does not change the logical structure of the table (its columns and data types). Therefore, it demonstrates physical data independence.
+
+
+9. How is Physical Data Independence achieved?
+
+    By modifying VL-LL mapping
+    By modifying PL-LL mapping
+    By modifying all mappings
+    By normalizing the database
+
+Correct Answer: By modifying PL-LL mapping
+
+Explanation: Physical Data Independence is achieved by managing the Physical Layer to Logical Layer (PL-LL) mapping. A DBMS handles this mapping, allowing developers to change the physical storage without affecting the logical schema seen by the application.
