@@ -19,3 +19,14 @@ Explanation: Key-Value stores, such as Redis and DynamoDB, offer extremely fast 
 Correct Answer: Distributing data across multiple servers
 
 Explanation: Horizontal scalability involves scaling out by adding more machines to a system. This approach distributes the workload across multiple servers, a common practice in NoSQL systems to handle large amounts of data and traffic. In contrast, vertical scalability involves adding more power (like CPUs or RAM) to a single machine.
+
+
+3. Which type of database is best suited for applications requiring strict ACID compliance and complex joins?
+
+    Key-Value Store
+    Document Database
+    Relational Database
+    Time Series Database
+Correct Answer: Relational Database
+
+Explanation: Relational databases (RDBMS) are the most suitable choice for applications that need strict ACID compliance (Atomicity, Consistency, Isolation, Durability). Their structured, tabular format also makes them highly effective at handling complex queries with multiple joins.
