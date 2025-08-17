@@ -42,3 +42,15 @@ Explanation: Relational databases (RDBMS) are the most suitable choice for appli
 Correct Answer: Time Series Database
 
 Explanation: Time Series Databases are specifically optimized for storing and querying time-stamped data, such as performance metrics, server logs, and IoT sensor data. They are designed for fast ingestion and efficient analysis of data that arrives in a time-ordered sequence.
+
+
+5. What does the concept of Polyglot Persistence refer to in database architecture?
+
+    Using a single NoSQL database for all services
+    Using SQL and NoSQL databases alternately for cost savings
+    Using multiple types of databases within a single system for different needs
+    Using cloud-managed databases to reduce infrastructure overhead
+
+Correct Answer: Using multiple types of databases within a single system for different needs
+
+Explanation: Polyglot Persistence is an architectural pattern that involves using different database technologies for different purposes within a single application. For example, a system might use a relational database for user data, a key-value store for caching, and a time series database for logs.
