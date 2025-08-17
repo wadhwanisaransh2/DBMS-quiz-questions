@@ -54,3 +54,15 @@ Explanation: Time Series Databases are specifically optimized for storing and qu
 Correct Answer: Using multiple types of databases within a single system for different needs
 
 Explanation: Polyglot Persistence is an architectural pattern that involves using different database technologies for different purposes within a single application. For example, a system might use a relational database for user data, a key-value store for caching, and a time series database for logs.
+
+
+6. Which of the following factors is most important to consider when your team has limited experience managing complex infrastructure?
+
+    Use of CQRS pattern
+    Choosing a database with high write throughput
+    Selecting a time series database
+    Preferring fully managed database services
+
+Correct Answer: Preferring fully managed database services
+
+Explanation: Fully managed database services (like Amazon RDS or Azure SQL) handle routine administrative tasks such as backups, patching, and scaling automatically. This significantly reduces operational complexity and is ideal for teams with limited infrastructure management expertise.
