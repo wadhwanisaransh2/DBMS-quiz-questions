@@ -30,3 +30,15 @@ Explanation: Horizontal scalability involves scaling out by adding more machines
 Correct Answer: Relational Database
 
 Explanation: Relational databases (RDBMS) are the most suitable choice for applications that need strict ACID compliance (Atomicity, Consistency, Isolation, Durability). Their structured, tabular format also makes them highly effective at handling complex queries with multiple joins.
+
+
+4. If your application deals with metrics, logs, or time-stamped sensor data, which type of database is most appropriate?
+
+    Document Database
+    Columnar Database
+    Relational Database
+    Time Series Database
+
+Correct Answer: Time Series Database
+
+Explanation: Time Series Databases are specifically optimized for storing and querying time-stamped data, such as performance metrics, server logs, and IoT sensor data. They are designed for fast ingestion and efficient analysis of data that arrives in a time-ordered sequence.
