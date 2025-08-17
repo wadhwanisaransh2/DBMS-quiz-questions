@@ -66,3 +66,15 @@ Explanation: Polyglot Persistence is an architectural pattern that involves usin
 Correct Answer: Preferring fully managed database services
 
 Explanation: Fully managed database services (like Amazon RDS or Azure SQL) handle routine administrative tasks such as backups, patching, and scaling automatically. This significantly reduces operational complexity and is ideal for teams with limited infrastructure management expertise.
+
+
+7. What is Physical Data Independence?
+
+    Ability to change logical schema without affecting view schema
+    Ability to change view schema without affecting logical schema
+    Ability to change physical schema without affecting logical schema
+    Ability to change all levels of schema simultaneously
+
+Correct Answer: Ability to change physical schema without affecting logical schema
+
+Explanation: Physical data independence means that changes to the physical storage structure of a database (e.g., adding a new index, changing the storage medium) do not require changes to the logical structure or the application programs that access the data
