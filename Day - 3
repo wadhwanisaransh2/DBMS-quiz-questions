@@ -1,0 +1,10 @@
+1. Which database type is specifically designed for high-speed access using simple keys and values, often used for caching?
+
+    Columnar Database
+    Document Database
+    Key-Value Store
+    Relational Database
+
+Correct Answer: Key-Value Store
+
+Explanation: Key-Value stores, such as Redis and DynamoDB, offer extremely fast lookups because they store data as a collection of key-value pairs. This simple structure makes them ideal for caching, session management, and other use cases requiring quick data retrieval.
