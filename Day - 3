@@ -102,3 +102,143 @@ Explanation: Adding a new index affects the physical storage and access path of 
 Correct Answer: By modifying PL-LL mapping
 
 Explanation: Physical Data Independence is achieved by managing the Physical Layer to Logical Layer (PL-LL) mapping. A DBMS handles this mapping, allowing developers to change the physical storage without affecting the logical schema seen by the application.
+
+
+    Query successful
+
+1. Which database type is specifically designed for high-speed access using simple keys and values, often used for caching?
+
+    Columnar Database
+
+    Document Database
+
+    Key-Value Store
+
+    Relational Database
+
+Correct Answer: Key-Value Store
+
+Explanation: Key-Value stores, such as Redis and DynamoDB, offer extremely fast lookups because they store data as a collection of key-value pairs. This simple structure makes them ideal for caching, session management, and other use cases requiring quick data retrieval.
+
+2. What does horizontal scalability mean in the context of database systems?
+
+    Adding more CPUs to the same server
+
+    Rewriting database queries for optimization
+
+    Distributing data across multiple servers
+
+    Using multiple databases with one schema
+
+Correct Answer: Distributing data across multiple servers
+
+Explanation: Horizontal scalability involves scaling out by adding more machines to a system. This approach distributes the workload across multiple servers, a common practice in NoSQL systems to handle large amounts of data and traffic. In contrast, vertical scalability involves adding more power (like CPUs or RAM) to a single machine.
+
+3. Which type of database is best suited for applications requiring strict ACID compliance and complex joins?
+
+    Key-Value Store
+
+    Document Database
+
+    Relational Database
+
+    Time Series Database
+
+Correct Answer: Relational Database
+
+Explanation: Relational databases (RDBMS) are the most suitable choice for applications that need strict ACID compliance (Atomicity, Consistency, Isolation, Durability). Their structured, tabular format also makes them highly effective at handling complex queries with multiple joins.
+
+4. If your application deals with metrics, logs, or time-stamped sensor data, which type of database is most appropriate?
+
+    Document Database
+
+    Columnar Database
+
+    Relational Database
+
+    Time Series Database
+
+Correct Answer: Time Series Database
+
+Explanation: Time Series Databases are specifically optimized for storing and querying time-stamped data, such as performance metrics, server logs, and IoT sensor data. They are designed for fast ingestion and efficient analysis of data that arrives in a time-ordered sequence.
+
+5. What does the concept of Polyglot Persistence refer to in database architecture?
+
+    Using a single NoSQL database for all services
+
+    Using SQL and NoSQL databases alternately for cost savings
+
+    Using multiple types of databases within a single system for different needs
+
+    Using cloud-managed databases to reduce infrastructure overhead
+
+Correct Answer: Using multiple types of databases within a single system for different needs
+
+Explanation: Polyglot Persistence is an architectural pattern that involves using different database technologies for different purposes within a single application. For example, a system might use a relational database for user data, a key-value store for caching, and a time series database for logs.
+
+6. Which of the following factors is most important to consider when your team has limited experience managing complex infrastructure?
+
+    Use of CQRS pattern
+
+    Choosing a database with high write throughput
+
+    Selecting a time series database
+
+    Preferring fully managed database services
+
+Correct Answer: Preferring fully managed database services
+
+Explanation: Fully managed database services (like Amazon RDS or Azure SQL) handle routine administrative tasks such as backups, patching, and scaling automatically. This significantly reduces operational complexity and is ideal for teams with limited infrastructure management expertise.
+
+7. What is Physical Data Independence?
+
+    Ability to change logical schema without affecting view schema
+
+    Ability to change view schema without affecting logical schema
+
+    Ability to change physical schema without affecting logical schema
+
+    Ability to change all levels of schema simultaneously
+
+Correct Answer: Ability to change physical schema without affecting logical schema
+
+Explanation: Physical data independence means that changes to the physical storage structure of a database (e.g., adding a new index, changing the storage medium) do not require changes to the logical structure or the application programs that access the data.
+
+8. Which of the following changes represents Physical Data Independence?
+
+    Adding a new attribute to a table
+
+    Changing the datatype of a column
+
+    Creating a new index on a table
+
+    Removing a column from a table
+
+Correct Answer: Creating a new index on a table
+
+Explanation: Adding a new index affects the physical storage and access path of the data but does not change the logical structure of the table (its columns and data types). Therefore, it demonstrates physical data independence.
+
+9. How is Physical Data Independence achieved?
+
+    By modifying VL-LL mapping
+
+    By modifying PL-LL mapping
+
+    By modifying all mappings
+
+    By normalizing the database
+
+Correct Answer: By modifying PL-LL mapping
+
+Explanation: Physical Data Independence is achieved by managing the Physical Layer to Logical Layer (PL-LL) mapping. A DBMS handles this mapping, allowing developers to change the physical storage without affecting the logical schema seen by the application.
+
+10. What would violate Logical Data Independence?
+
+    Modifying a column that no program uses
+    Adding an index to improve performance
+    Changing a table structure that breaks a dependent application
+    Deleting unused files from disk
+
+Correct Answer: Changing a table structure that breaks a dependent application
+
+Explanation: Logical data independence means that changes to the logical schema (e.g., adding or removing a column from a table) should not affect application programs. If a change to the table structure forces an application to be rewritten, it violates this principle.
