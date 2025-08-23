@@ -83,3 +83,13 @@ Explanation: A primary key is a unique identifier for each record in a table. It
 Correct Answer: Tangible entities are real-world objects; intangible entities are abstract concepts
 
 Explanation: Tangible entities are physical objects you can touch, like a person or a car. Intangible entities are abstract concepts or events, like a job, a sale, or a class.
+
+5. What is a composite attribute?
+    An attribute with a NULL value
+    An attribute that is stored in the database
+    An attribute that can be divided into smaller sub-parts
+    An attribute with multiple values
+
+Correct Answer: An attribute that can be divided into smaller sub-parts
+
+Explanation: A composite attribute is an attribute that is composed of several other attributes. For example, the Address attribute can be divided into Street, City, State, and Zip Code.
