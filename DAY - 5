@@ -1,0 +1,9 @@
+1. What does the ER Model represent in database design?
+    Physical structure
+    Data relationships and structure
+    Programming logic
+    User interface
+
+Correct Answer: Data relationships and structure
+
+Explanation: The Entity-Relationship (ER) Model is a high-level conceptual data model that represents the data as a collection of entities, attributes, and relationships. It is used to design the logical structure of a database, focusing on how different data points are connected.
