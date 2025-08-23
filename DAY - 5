@@ -104,3 +104,12 @@ Correct Answer: Total constraint
 Explanation: A total constraint requires that every entity in the superclass must be a member of at least one subclass. This is represented by a double line connecting the superclass to the circle in an EER diagram.
 
 
+10. What does a union type in EER represent?
+    A weak entity
+    A single attribute
+    A category that represents a union of multiple entity types
+    A derived attribute
+
+Correct Answer: A category that represents a union of multiple entity types
+
+Explanation: A union type (also known as a category) is a specialized concept in the Enhanced Entity-Relationship (EER) model. It allows a single entity type to be a union of two or more distinct entity types, where these entity types may have different attributes. For example, a VEHICLE_OWNER can be a PERSON or a COMPANY.
