@@ -73,3 +73,13 @@ Explanation: A strong entity is an entity that can be uniquely identified by its
 Correct Answer: Primary Key
 
 Explanation: A primary key is a unique identifier for each record in a table. It must contain a unique value for each row and cannot contain null values. It is the fundamental key for uniquely identifying an entity instance.
+
+4. What is the difference between a tangible and intangible entity?
+    Tangible entities are stored; intangible are not
+    Tangible entities are real-world objects; intangible entities are abstract concepts
+    There is no difference
+    Tangible entities have no attributes
+
+Correct Answer: Tangible entities are real-world objects; intangible entities are abstract concepts
+
+Explanation: Tangible entities are physical objects you can touch, like a person or a car. Intangible entities are abstract concepts or events, like a job, a sale, or a class.
