@@ -91,3 +91,16 @@ Explanation: The "IS-A" relationship denotes specialization, a top-down approach
 Correct Answer: Combining similar entities into a single general entity
 
 Explanation: Generalization is a bottom-up approach in which two or more lower-level entities with some common attributes are combined to form a higher-level general entity. For example, CAR, TRUCK, and MOTORCYCLE can be generalized into a VEHICLE.
+
+
+9. What type of constraint requires every superclass instance to be a member of a subclass?
+
+    Partial constraint
+    Disjoint constraint
+    Total constraint
+    Overlap constraint
+Correct Answer: Total constraint
+
+Explanation: A total constraint requires that every entity in the superclass must be a member of at least one subclass. This is represented by a double line connecting the superclass to the circle in an EER diagram.
+
+
