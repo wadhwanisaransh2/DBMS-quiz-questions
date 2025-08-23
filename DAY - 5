@@ -1,13 +1,9 @@
 
 
 1. What does the ER Model represent in database design?
-
     Physical structure
-
     Data relationships and structure
-
     Programming logic
-
     User interface
 
 Correct Answer: Data relationships and structure
@@ -17,11 +13,8 @@ Explanation: The Entity-Relationship (ER) Model is a high-level conceptual data 
 2. What kind of entity can exist independently?
 
     Weak Entity
-
     Strong Entity
-
     Partial Entity
-
     Associated Entity
 
 Correct Answer: Strong Entity
