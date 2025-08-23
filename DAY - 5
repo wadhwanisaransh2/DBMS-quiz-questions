@@ -93,85 +93,14 @@ Explanation: Tangible entities are physical objects you can touch, like a person
 Correct Answer: An attribute that can be divided into smaller sub-parts
 
 Explanation: A composite attribute is an attribute that is composed of several other attributes. For example, the Address attribute can be divided into Street, City, State, and Zip Code.
+to smaller sub-parts
 
-    Query successful
+7. What does "IS-A" relationship denote in EER?
+    Aggregation
+    Specialization
+    Categorization
+    Union
 
-1. What does the ER Model represent in database design?
+Correct Answer: Specialization
 
-    Physical structure
-
-    Data relationships and structure
-
-    Programming logic
-
-    User interface
-
-Correct Answer: Data relationships and structure
-
-Explanation: The Entity-Relationship (ER) Model is a high-level conceptual data model that represents the data as a collection of entities, attributes, and relationships. It is used to design the logical structure of a database, focusing on how different data points are connected.
-
-2. What kind of entity can exist independently?
-
-    Weak Entity
-
-    Strong Entity
-
-    Partial Entity
-
-    Associated Entity
-
-Correct Answer: Strong Entity
-
-Explanation: A strong entity is an entity that can be uniquely identified by its own attributes and does not depend on another entity for its existence. It has a primary key. A weak entity, conversely, depends on a strong entity for its identification.
-
-3. Which key is used to uniquely identify an entity instance?
-
-    Composite Key
-
-    Secondary Key
-
-    Primary Key
-
-    Foreign Key
-
-Correct Answer: Primary Key
-
-Explanation: A primary key is a unique identifier for each record in a table. It must contain a unique value for each row and cannot contain null values. It is the fundamental key for uniquely identifying an entity instance.
-
-4. What is the difference between a tangible and intangible entity?
-
-    Tangible entities are stored; intangible are not
-
-    Tangible entities are real-world objects; intangible entities are abstract concepts
-
-    There is no difference
-
-    Tangible entities have no attributes
-
-Correct Answer: Tangible entities are real-world objects; intangible entities are abstract concepts
-
-Explanation: Tangible entities are physical objects you can touch, like a person or a car. Intangible entities are abstract concepts or events, like a job, a sale, or a class.
-
-5. What is a composite attribute?
-
-    An attribute with a NULL value
-
-    An attribute that is stored in the database
-
-    An attribute that can be divided into smaller sub-parts
-
-    An attribute with multiple values
-
-Correct Answer: An attribute that can be divided into smaller sub-parts
-
-Explanation: A composite attribute is an attribute that is composed of several other attributes. For example, the Address attribute can be divided into Street, City, State, and Zip Code.
-
-6. What shape represents derived attributes in an ER diagram?
-    Solid oval
-    Dotted oval
-    Rectangle
-    Triangle
-
-Correct Answer: Dotted oval
-
-Explanation: In an ER diagram, derived attributes are represented by a dotted oval. A derived attribute is an attribute whose value can be calculated or derived from other attributes, like calculating Age from a Date of Birth.
+Explanation: The "IS-A" relationship denotes specialization, a top-down approach in which an entity is divided into sub-entities. For example, a PERSON is-a STUDENT or a PERSON is-a INSTRUCTOR.
