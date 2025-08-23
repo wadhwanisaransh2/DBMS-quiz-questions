@@ -80,3 +80,14 @@ Explanation: In an ER diagram, derived attributes are represented by a dotted ov
 Correct Answer: Specialization
 
 Explanation: The "IS-A" relationship denotes specialization, a top-down approach in which an entity is divided into sub-entities. For example, a PERSON is-a STUDENT or a PERSON is-a INSTRUCTOR.
+
+
+8. 8. Which of the following best describes generalization?
+    Dividing an entity into multiple entities
+    Combining similar entities into a single general entity
+    Inheriting attributes from multiple superclasses
+    Adding new attributes to an entity
+
+Correct Answer: Combining similar entities into a single general entity
+
+Explanation: Generalization is a bottom-up approach in which two or more lower-level entities with some common attributes are combined to form a higher-level general entity. For example, CAR, TRUCK, and MOTORCYCLE can be generalized into a VEHICLE.
