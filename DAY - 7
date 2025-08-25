@@ -25,3 +25,47 @@ Explanation: Generalization, Specialization, and Aggregation are all concepts in
 Correct Answer: Bottom-up approach
 
 Explanation: Generalization is a bottom-up process. It involves combining multiple lower-level entities with common attributes into a single higher-level entity type. For example, CAR and TRUCK can be generalized into a VEHICLE entity.
+
+    Query successful
+
+1. What is the purpose of introducing Generalization, Specialization, and Aggregation in ER modeling?
+
+    To increase database complexity
+
+    To store more data types
+
+    To support abstraction and manage complex data
+
+    To convert ER model into relational model
+
+Correct Answer: To support abstraction and manage complex data
+
+Explanation: Generalization, Specialization, and Aggregation are all concepts in the Enhanced Entity-Relationship (EER) model. Their primary purpose is to help in modeling complex, real-world data more accurately and to introduce levels of abstraction, making the database design easier to understand and manage.
+
+2. Generalization is a:
+
+    Top-down approach
+
+    Bottom-up approach
+
+    Parallel approach
+
+    Side-by-side approach
+
+Correct Answer: Bottom-up approach
+
+Explanation: Generalization is a bottom-up process. It involves combining multiple lower-level entities with common attributes into a single higher-level entity type. For example, CAR and TRUCK can be generalized into a VEHICLE entity.
+
+3. Which of the following is an example of Generalization?
+
+    EMPLOYEE → DEVELOPER, TESTER
+
+    STUDENT + FACULTY → PERSON
+
+    CAR + BIKE → VEHICLE → ROAD
+
+    PROJECT → WORKS_FOR → EMPLOYEE
+
+Correct Answer: STUDENT + FACULTY → PERSON
+
+Explanation: In this example, the two lower-level entity types, STUDENT and FACULTY, are generalized into the higher-level entity type PERSON, as they share common attributes like name and address.
