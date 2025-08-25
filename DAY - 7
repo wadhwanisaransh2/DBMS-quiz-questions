@@ -128,3 +128,18 @@ Explanation: In an EER model, subclasses inherit not only the attributes of thei
 Correct Answer: WORKS_FOR (Employee, Project) → REQUIRE → Machinery
 
 Explanation: Aggregation is a special type of relationship where a relationship itself is treated as an entity. In this example, the relationship WORKS_FOR between Employee and Project is treated as a higher-level entity, which then participates in another relationship, REQUIRE, with the Machinery entity.
+
+
+8. In a many-to-one relationship, how many tables are needed at minimum?
+
+    1
+
+    2
+
+    3
+
+    4
+
+Correct Answer: 2
+
+Explanation: A many-to-one relationship requires at least two tables, one for each of the entities involved. The primary key of the "one" side is included as a foreign key in the table for the "many" side. For example, a Student entity (many) and a Department entity (one) would require a minimum of two tables, with the department_id from the Department table being a foreign key in the Student table.
