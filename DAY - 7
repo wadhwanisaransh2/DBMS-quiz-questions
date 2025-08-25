@@ -113,3 +113,18 @@ Explanation: Specialization is a top-down design process. You start with a gener
 Correct Answer: Inheriting constraints on relationships from superclass
 
 Explanation: In an EER model, subclasses inherit not only the attributes of their superclass but also the relationship participation constraints. This means a subclass instance must adhere to the same relationship rules as its superclass instance.
+
+
+7. Which of the following best illustrates Aggregation?
+
+    Student and Faculty → Person
+
+    Vehicle → Car, Truck
+
+    WORKS_FOR (Employee, Project) → REQUIRE → Machinery
+
+    Engineer → Salaried, Hourly
+
+Correct Answer: WORKS_FOR (Employee, Project) → REQUIRE → Machinery
+
+Explanation: Aggregation is a special type of relationship where a relationship itself is treated as an entity. In this example, the relationship WORKS_FOR between Employee and Project is treated as a higher-level entity, which then participates in another relationship, REQUIRE, with the Machinery entity.
