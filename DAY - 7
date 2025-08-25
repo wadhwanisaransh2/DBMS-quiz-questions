@@ -143,3 +143,18 @@ Explanation: Aggregation is a special type of relationship where a relationship 
 Correct Answer: 2
 
 Explanation: A many-to-one relationship requires at least two tables, one for each of the entities involved. The primary key of the "one" side is included as a foreign key in the table for the "many" side. For example, a Student entity (many) and a Department entity (one) would require a minimum of two tables, with the department_id from the Department table being a foreign key in the Student table.
+
+
+9. In a university database, the student table stores student details (e.g., student_id, name), and the scholarship table records financial awards (e.g., scholarship_id, amount). When can these tables be safely merged?
+
+    One-to-one (Each student receives at most one scholarship, and each scholarship is awarded to exactly one student).
+
+    One-to-many (A student may receive multiple scholarships).
+
+    Many-to-many (Scholarships may be shared among students).
+
+    Never (Merging violates normalization).
+
+Correct Answer: Never (Merging violates normalization).
+
+Explanation: Merging these two tables would violate normalization, specifically the principles of First Normal Form (1NF) or Second Normal Form (2NF). A scholarship is a separate entity from a student, and merging them would introduce redundancy and potential data integrity issues. Even in a one-to-one relationship, keeping them separate is best practice to avoid null values and maintain a clean schema.
