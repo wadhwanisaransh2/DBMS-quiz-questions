@@ -98,3 +98,18 @@ Explanation: Specialization is the process of breaking down a higher-level entit
 Correct Answer: Top-down
 
 Explanation: Specialization is a top-down design process. You start with a general entity (e.g., VEHICLE) and then identify specific subtypes (e.g., CAR, TRUCK) that have unique attributes or relationships.
+
+
+6. What is Participation Inheritance in ER modeling?
+
+    Attributes inherited by subclasses
+
+    Keys inherited from foreign relationships
+
+    Inheriting constraints on relationships from superclass
+
+    Automatic copying of data from other entities
+
+Correct Answer: Inheriting constraints on relationships from superclass
+
+Explanation: In an EER model, subclasses inherit not only the attributes of their superclass but also the relationship participation constraints. This means a subclass instance must adhere to the same relationship rules as its superclass instance.
