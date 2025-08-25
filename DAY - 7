@@ -84,3 +84,17 @@ Explanation: In this example, the two lower-level entity types, STUDENT and FACU
 Correct Answer: Dividing an entity into more specific entities
 
 Explanation: Specialization is the process of breaking down a higher-level entity into more specific, lower-level entities. This is a top-down approach that identifies and models distinct groups within an entity.
+
+5. Specialization follows which design approach?
+
+    Horizontal
+
+    Bottom-up
+
+    Top-down
+
+    Diagonal
+
+Correct Answer: Top-down
+
+Explanation: Specialization is a top-down design process. You start with a general entity (e.g., VEHICLE) and then identify specific subtypes (e.g., CAR, TRUCK) that have unique attributes or relationships.
