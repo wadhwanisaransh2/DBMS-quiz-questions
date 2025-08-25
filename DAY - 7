@@ -1,0 +1,13 @@
+1. What is the purpose of introducing Generalization, Specialization, and Aggregation in ER modeling?
+
+    To increase database complexity
+
+    To store more data types
+
+    To support abstraction and manage complex data
+
+    To convert ER model into relational model
+
+Correct Answer: To support abstraction and manage complex data
+
+Explanation: Generalization, Specialization, and Aggregation are all concepts in the Enhanced Entity-Relationship (EER) model. Their primary purpose is to help in modeling complex, real-world data more accurately and to introduce levels of abstraction, making the database design easier to understand and manage.
