@@ -69,3 +69,18 @@ Explanation: Generalization is a bottom-up process. It involves combining multip
 Correct Answer: STUDENT + FACULTY → PERSON
 
 Explanation: In this example, the two lower-level entity types, STUDENT and FACULTY, are generalized into the higher-level entity type PERSON, as they share common attributes like name and address.
+
+
+4. Specialization is best described as:
+
+    Merging two entities into one
+
+    Converting attributes into entities
+
+    Dividing an entity into more specific entities
+
+    Removing entities from a model
+
+Correct Answer: Dividing an entity into more specific entities
+
+Explanation: Specialization is the process of breaking down a higher-level entity into more specific, lower-level entities. This is a top-down approach that identifies and models distinct groups within an entity.
