@@ -11,3 +11,17 @@
 Correct Answer: To support abstraction and manage complex data
 
 Explanation: Generalization, Specialization, and Aggregation are all concepts in the Enhanced Entity-Relationship (EER) model. Their primary purpose is to help in modeling complex, real-world data more accurately and to introduce levels of abstraction, making the database design easier to understand and manage.
+
+2. Generalization is a:
+
+    Top-down approach
+
+    Bottom-up approach
+
+    Parallel approach
+
+    Side-by-side approach
+
+Correct Answer: Bottom-up approach
+
+Explanation: Generalization is a bottom-up process. It involves combining multiple lower-level entities with common attributes into a single higher-level entity type. For example, CAR and TRUCK can be generalized into a VEHICLE entity.
