@@ -39,3 +39,17 @@ Foreign Key
 Correct Answer: Foreign Key
 
 Explanation: A Foreign Key can have a NULL value, meaning that the record is not related to any record in the referenced table. Primary keys, candidate keys, and super keys are all required to be unique and cannot be NULL.
+
+
+4. What does Referential Integrity ensure?
+All data in a column is unique
+
+Every table has a primary key
+
+Foreign key values match primary keys in the referenced table
+
+No attribute has NULL value
+
+Correct Answer: Foreign key values match primary keys in the referenced table
+
+Explanation: Referential Integrity is a database concept that ensures that relationships between tables are consistent. It is enforced by a foreign key, which links to the primary key of another table, guaranteeing that a record in the referencing table always has a corresponding record in the referenced table.
