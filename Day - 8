@@ -95,3 +95,17 @@ To replicate data
 Correct Answer: To organize data and reduce redundancy
 
 Explanation: Normalization is a process used to organize tables and columns in a database to reduce data redundancy and improve data integrity. The goal is to ensure that each tuple (row) represents a single, well-defined entity.
+
+
+8. What does a query return in a relational database?
+Columns only
+
+Tables only
+
+A set of tuples that match criteria
+
+Attributes only
+
+Correct Answer: A set of tuples that match criteria
+
+Explanation: A database query (e.g., a SELECT statement) returns a set of tuples (rows) that satisfy the specified conditions or criteria.
