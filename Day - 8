@@ -11,3 +11,17 @@ Foreign Key
 Correct Answer: Primary Key
 
 Explanation: The Primary Key is a specific type of candidate key chosen to uniquely identify each tuple (row) in a table. While a Super Key is a set of attributes that can uniquely identify a tuple, and a Candidate Key is a minimal super key, the primary key is the one designated for unique identification.
+
+
+2. What does Cardinality of a relation refer to?
+Number of attributes
+
+Number of relations
+
+Number of keys
+
+Number of tuples
+
+Correct Answer: Number of tuples
+
+Explanation: The cardinality of a relation (table) is the number of tuples (rows) it contains. The number of attributes (columns) is referred to as the degree of the relation.
