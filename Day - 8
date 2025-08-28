@@ -109,3 +109,17 @@ Attributes only
 Correct Answer: A set of tuples that match criteria
 
 Explanation: A database query (e.g., a SELECT statement) returns a set of tuples (rows) that satisfy the specified conditions or criteria.
+
+
+9. What is the role of a Logical Tuple in DBMS?
+Stores backup data
+
+Temporarily represents data in memory
+
+Creates the schema
+
+Deletes duplicate data
+
+Correct Answer: Temporarily represents data in memory
+
+Explanation: A logical tuple is an in-memory representation of data, which may be created for a specific task like processing a query or performing an operation. It's a temporary structure used during database operations.
