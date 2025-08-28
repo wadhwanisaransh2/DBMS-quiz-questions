@@ -123,3 +123,17 @@ Deletes duplicate data
 Correct Answer: Temporarily represents data in memory
 
 Explanation: A logical tuple is an in-memory representation of data, which may be created for a specific task like processing a query or performing an operation. It's a temporary structure used during database operations.
+
+
+10. In the CUSTOMER table, which of the following is most likely a tuple?
+customer_id
+
+first_name
+
+1, John, Smith, abc@gmail.com
+
+email
+
+Correct Answer: 1, John, Smith, abc@gmail.com
+
+Explanation: A tuple is a single row of data in a table. In the provided options, 1, John, Smith, abc@gmail.com represents a complete record for a single customer, which is a tuple. The other options are individual attributes or field names.
