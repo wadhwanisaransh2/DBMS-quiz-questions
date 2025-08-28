@@ -1,0 +1,13 @@
+
+1. Which of the following uniquely identifies a tuple in a relation?
+Super Key
+
+Candidate Key
+
+Primary Key
+
+Foreign Key
+
+Correct Answer: Primary Key
+
+Explanation: The Primary Key is a specific type of candidate key chosen to uniquely identify each tuple (row) in a table. While a Super Key is a set of attributes that can uniquely identify a tuple, and a Candidate Key is a minimal super key, the primary key is the one designated for unique identification.
