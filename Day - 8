@@ -25,3 +25,17 @@ Number of tuples
 Correct Answer: Number of tuples
 
 Explanation: The cardinality of a relation (table) is the number of tuples (rows) it contains. The number of attributes (columns) is referred to as the degree of the relation.
+
+
+3. Which key can have NULL values?
+Primary Key
+
+Candidate Key
+
+Super Key
+
+Foreign Key
+
+Correct Answer: Foreign Key
+
+Explanation: A Foreign Key can have a NULL value, meaning that the record is not related to any record in the referenced table. Primary keys, candidate keys, and super keys are all required to be unique and cannot be NULL.
