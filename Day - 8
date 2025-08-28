@@ -81,3 +81,17 @@ A tuple
 Correct Answer: An attribute or field
 
 Explanation: Each column in a relational table represents an attribute or a field. An attribute defines a characteristic of the entity that the table represents. For example, in a Student table, StudentID, Name, and Age would be attributes.
+
+
+7. How are tuples used in normalization?
+To delete data
+
+To increase redundancy
+
+To organize data and reduce redundancy
+
+To replicate data
+
+Correct Answer: To organize data and reduce redundancy
+
+Explanation: Normalization is a process used to organize tables and columns in a database to reduce data redundancy and improve data integrity. The goal is to ensure that each tuple (row) represents a single, well-defined entity.
