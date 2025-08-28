@@ -67,3 +67,17 @@ A type of query
 Correct Answer: A single row or record in a table
 
 Explanation: In the context of a relational database, a tuple is the formal term for a single row or record in a table.
+
+
+6. In a relational database, what does each column in a tuple represent?
+A row
+
+A primary key
+
+An attribute or field
+
+A tuple
+
+Correct Answer: An attribute or field
+
+Explanation: Each column in a relational table represents an attribute or a field. An attribute defines a characteristic of the entity that the table represents. For example, in a Student table, StudentID, Name, and Age would be attributes.
