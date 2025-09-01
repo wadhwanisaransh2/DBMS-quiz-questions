@@ -13,7 +13,6 @@ Explanation: The MERGE command is used to combine INSERT and UPDATE operations i
     NoSQL DBMS
     Hierarchical DBMS
 Correct Answer: NoSQL DBMS
-
 Explanation: NoSQL databases are specifically designed for flexible data models, making them ideal for unstructured or semi-structured data formats like JSON, key-value pairs, or graph-based data, unlike the rigid, tabular structures of Relational DBMS.
 
 
