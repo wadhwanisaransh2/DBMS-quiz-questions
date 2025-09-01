@@ -31,7 +31,6 @@ Explanation: The GRANT command is a Data Control Language (DCL) command used to 
     Database specific format
     Word processor
 Correct Answer: Database specific format
-
 Explanation: Unlike traditional file systems, a Database Management System (DBMS) stores data centrally in its own specific format to ensure efficiency, data integrity, and consistency. This format is managed and controlled by the DBMS software.
 
 
