@@ -40,7 +40,6 @@ Explanation: Unlike traditional file systems, a Database Management System (DBMS
     Multiple views of data
     Increased data redundancy
 Correct Answer: Increased data redundancy
-
 Explanation: One of the primary goals of a DBMS is to reduce data redundancy by storing data in a single, centralized location and enforcing integrity rules. The database approach aims to decrease, not increase, data duplication.
 
 
