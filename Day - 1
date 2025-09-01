@@ -22,7 +22,6 @@ Explanation: NoSQL databases are specifically designed for flexible data models,
     SELECT
     UPDATE
 Correct Answer: GRANT
-
 Explanation: The GRANT command is a Data Control Language (DCL) command used to provide specific privileges (e.g., SELECT, INSERT) to a user or role. COMMIT is a Transaction Control Language (TCL) command, while SELECT and UPDATE are Data Manipulation Language (DML) commands.
 
 
