@@ -49,7 +49,6 @@ Explanation: One of the primary goals of a DBMS is to reduce data redundancy by 
     Changes in data do not affect application programs
     Data is dependent on one user
 Correct Answer: Changes in data do not affect application programs
-
 Explanation: Data independence is a major advantage of a DBMS. It means that the data structure can be changed without requiring changes to the application programs that use the data. This provides flexibility and makes maintenance easier.
 
 
