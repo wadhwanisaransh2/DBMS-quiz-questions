@@ -37,7 +37,6 @@ Explanation: Relational databases (RDBMS) are the most suitable choice for appli
     Time Series Database
 
 Correct Answer: Time Series Database
-
 Explanation: Time Series Databases are specifically optimized for storing and querying time-stamped data, such as performance metrics, server logs, and IoT sensor data. They are designed for fast ingestion and efficient analysis of data that arrives in a time-ordered sequence.
 
 
