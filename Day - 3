@@ -6,7 +6,6 @@
     Relational Database
 
 Correct Answer: Key-Value Store
-
 Explanation: Key-Value stores, such as Redis and DynamoDB, offer extremely fast lookups because they store data as a collection of key-value pairs. This simple structure makes them ideal for caching, session management, and other use cases requiring quick data retrieval.
 
 2. What does horizontal scalability mean in the context of database systems?
