@@ -26,7 +26,6 @@ Explanation: Horizontal scalability involves scaling out by adding more machines
     Relational Database
     Time Series Database
 Correct Answer: Relational Database
-
 Explanation: Relational databases (RDBMS) are the most suitable choice for applications that need strict ACID compliance (Atomicity, Consistency, Isolation, Durability). Their structured, tabular format also makes them highly effective at handling complex queries with multiple joins.
 
 
