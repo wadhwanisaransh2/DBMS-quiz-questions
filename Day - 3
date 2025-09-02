@@ -59,7 +59,6 @@ Explanation: Polyglot Persistence is an architectural pattern that involves usin
     Preferring fully managed database services
 
 Correct Answer: Preferring fully managed database services
-
 Explanation: Fully managed database services (like Amazon RDS or Azure SQL) handle routine administrative tasks such as backups, patching, and scaling automatically. This significantly reduces operational complexity and is ideal for teams with limited infrastructure management expertise.
 
 
