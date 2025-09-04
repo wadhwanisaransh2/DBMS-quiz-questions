@@ -1,0 +1,5 @@
+
+1. What is the main purpose of keys in a DBMS?
+Correct Answer: To uniquely identify records and maintain data integrity
+
+Explanation: The primary purpose of keys (like primary keys and foreign keys) is to uniquely identify records within a table and to establish relationships between tables. This helps maintain data integrity and consistency throughout the database.
