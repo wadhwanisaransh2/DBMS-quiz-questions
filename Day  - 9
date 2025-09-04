@@ -3,3 +3,9 @@
 Correct Answer: To uniquely identify records and maintain data integrity
 
 Explanation: The primary purpose of keys (like primary keys and foreign keys) is to uniquely identify records within a table and to establish relationships between tables. This helps maintain data integrity and consistency throughout the database.
+
+
+2. Which of the following can be classified as a super key?
+Correct Answer: STUD_NO + SNAME
+
+Explanation: A super key is a set of one or more attributes that, taken collectively, can uniquely identify a tuple in a relation. In this case, combining a student number (STUD_NO) with a student name (SNAME) creates a super key. A single attribute like STUD_NO could also be a super key if it is unique. However, STUD_NO combined with SNAME is a classic example of a set of attributes that can uniquely identify a record, making it a super key.
