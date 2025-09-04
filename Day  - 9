@@ -26,3 +26,9 @@ Explanation: A primary key is an attribute (or a set of attributes) that uniquel
 Correct Answer: Behavioral Constraint
 
 Explanation: In a DBMS, integrity constraints are rules that prevent invalid data from being entered into a database. The most common types are Domain Constraints (ensuring data types are correct), Key Constraints (ensuring keys are unique), and Referential Integrity (ensuring foreign keys are valid). A Behavioral Constraint is not a standard term for an integrity constraint in database theory.
+
+
+6. Which of the following constraints ensures that no two rows have the same value in a specified column or columns?
+Correct Answer: Key Constraint
+
+Explanation: A Key Constraint ensures that the value in a specified column or a set of columns is unique for each row. The Primary Key Constraint and Unique Key Constraint are specific types of key constraints used to enforce this rule.
