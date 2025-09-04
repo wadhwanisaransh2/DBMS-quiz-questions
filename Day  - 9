@@ -20,3 +20,9 @@ Explanation: A candidate key is a minimal super key. This means it is a super ke
 Correct Answer: Primary key
 
 Explanation: A primary key is an attribute (or a set of attributes) that uniquely identifies a row in a table. By definition, a primary key cannot contain a NULL value. This is because a NULL value would mean the record cannot be uniquely identified, which violates the purpose of the primary key.
+
+
+5. Which of the following is NOT an integrity constraint in DBMS?
+Correct Answer: Behavioral Constraint
+
+Explanation: In a DBMS, integrity constraints are rules that prevent invalid data from being entered into a database. The most common types are Domain Constraints (ensuring data types are correct), Key Constraints (ensuring keys are unique), and Referential Integrity (ensuring foreign keys are valid). A Behavioral Constraint is not a standard term for an integrity constraint in database theory.
