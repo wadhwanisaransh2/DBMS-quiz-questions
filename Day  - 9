@@ -9,3 +9,9 @@ Explanation: The primary purpose of keys (like primary keys and foreign keys) is
 Correct Answer: STUD_NO + SNAME
 
 Explanation: A super key is a set of one or more attributes that, taken collectively, can uniquely identify a tuple in a relation. In this case, combining a student number (STUD_NO) with a student name (SNAME) creates a super key. A single attribute like STUD_NO could also be a super key if it is unique. However, STUD_NO combined with SNAME is a classic example of a set of attributes that can uniquely identify a record, making it a super key.
+
+
+3. What makes a candidate key different from a super key?
+Correct Answer: It is a minimal super key with no unnecessary attributes
+
+Explanation: A candidate key is a minimal super key. This means it is a super key from which no attributes can be removed without losing the uniqueness property. For example, {SSN} might be a candidate key, but {SSN, Name} is a super key that is not a candidate key because Name is an unnecessary attribute for unique identification.
