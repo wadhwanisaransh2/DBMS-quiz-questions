@@ -15,3 +15,8 @@ Explanation: A super key is a set of one or more attributes that, taken collecti
 Correct Answer: It is a minimal super key with no unnecessary attributes
 
 Explanation: A candidate key is a minimal super key. This means it is a super key from which no attributes can be removed without losing the uniqueness property. For example, {SSN} might be a candidate key, but {SSN, Name} is a super key that is not a candidate key because Name is an unnecessary attribute for unique identification.
+
+4. Which of the following cannot be NULL?
+Correct Answer: Primary key
+
+Explanation: A primary key is an attribute (or a set of attributes) that uniquely identifies a row in a table. By definition, a primary key cannot contain a NULL value. This is because a NULL value would mean the record cannot be uniquely identified, which violates the purpose of the primary key.
