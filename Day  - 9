@@ -49,3 +49,9 @@ Explanation: Referential integrity requires that a value in a foreign key column
 Correct Answer: A high-level conceptual schema
 
 Explanation: The top-down approach to schema design starts by creating a high-level conceptual schema, often using an ER model. This design focuses on the entities, attributes, and relationships without worrying about physical storage details. The design is then refined into a logical and physical schema in subsequent steps.
+
+
+10. In the Mixed strategy of schema design:
+Correct Answer: Top-Down and Bottom-Up are combined
+
+Explanation: The Mixed strategy (also known as the Inside-Out or Hybrid approach) is a design methodology that combines elements of both the top-down and bottom-up strategies. It starts with the most critical or known parts of the system and then expands from there, often blending conceptual modeling with practical implementation details.
