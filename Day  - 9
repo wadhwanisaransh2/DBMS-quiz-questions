@@ -44,3 +44,8 @@ Explanation: An Assertion is a statement that tests for a condition that should 
 Correct Answer: Must either match a primary key or be NULL
 
 Explanation: Referential integrity requires that a value in a foreign key column of one table must either match a value in the primary key of the referenced table or be NULL. This rule prevents the creation of "orphaned" records that point to a non-existent primary key.
+
+. In the Top-Down strategy of schema design, the design process begins with:
+Correct Answer: A high-level conceptual schema
+
+Explanation: The top-down approach to schema design starts by creating a high-level conceptual schema, often using an ER model. This design focuses on the entities, attributes, and relationships without worrying about physical storage details. The design is then refined into a logical and physical schema in subsequent steps.
