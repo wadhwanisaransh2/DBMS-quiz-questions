@@ -38,3 +38,9 @@ Explanation: A Key Constraint ensures that the value in a specified column or a 
 Correct Answer: Assertion
 
 Explanation: An Assertion is a statement that tests for a condition that should be satisfied by the database. It is a more powerful form of a constraint that can involve multiple tables or complex conditions. While Triggers can also enforce complex rules, they are a procedural mechanism that executes a set of actions in response to a specific event, whereas an Assertion is a declarative statement that is constantly checked by the system.
+
+
+8. Referential integrity ensures that a foreign key:
+Correct Answer: Must either match a primary key or be NULL
+
+Explanation: Referential integrity requires that a value in a foreign key column of one table must either match a value in the primary key of the referenced table or be NULL. This rule prevents the creation of "orphaned" records that point to a non-existent primary key.
